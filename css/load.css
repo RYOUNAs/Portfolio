@@ -58,7 +58,7 @@ body.appear .splashbg2 {
 /*右に消えるエリア*/
 body.appear .splashbg1 {
   animation-name: PageAnime;
-  animation-duration: 1.2s;
+  animation-duration: 1.8s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards;
   content: "";
@@ -89,7 +89,7 @@ body.appear .splashbg1 {
 /*左に消えるエリア*/
 body.appear .splashbg2 {
   animation-name: PageAnime2;
-  animation-duration: 1.2s;
+  animation-duration: 1.8s;
   animation-timing-function: ease-in-out;
   animation-fill-mode: forwards;
   content: "";
@@ -119,15 +119,15 @@ body.appear .splashbg2 {
 }
 
 /*画面遷移の後現れるコンテンツ設定*/
-#container {
+#top {
   opacity: 0; /*はじめは透過0に*/
 }
 
 /*bodyにappearクラスがついたら出現*/
-body.appear #container {
+body.appear #top {
   animation-name: PageAnimeAppear;
-  animation-duration: 1s;
-  animation-delay: 0.2s;
+  animation-duration: 2s;
+  animation-delay: 0.6s;
   animation-fill-mode: forwards;
   opacity: 0;
 }
