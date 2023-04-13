@@ -5,7 +5,7 @@ $(window).on("load", function () {
 
   $("#splash")
     .delay(2500)
-    .fadeOut("slow", function () {
+    .fadeOut(0, function () {
       //ローディングエリア（splashエリア）を1.5秒でフェードアウトする記述
 
       $("body").addClass("appear"); //フェードアウト後bodyにappearクラス付与
