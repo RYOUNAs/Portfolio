@@ -1,1 +1,42 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+@charset "UTF-8";
+body {
+  background-image: url("../img/tiny-squares.webp");
+  background-repeat: repeat;
+}
+body #top header {
+  padding: 20px;
+  background-color: aliceblue;
+  text-align: center;
+}
+body #top header h1 {
+  margin-bottom: 50px;
+}
+body #top header nav {
+  text-align: center;
+}
+body #top header nav ul {
+  margin: 0;
+  padding: 0;
+}
+body #top header nav ul li {
+  list-style: none;
+  display: inline-block;
+  width: 10%; /* ここで項目の幅を指定します */
+}
+body #top header nav ul li a {
+  text-decoration: none;
+  color: #333;
+}
+body #top header nav li:hover {
+  border-bottom: 2px solid #ff7a37; /* 下線の太さや色を指定します */
+}
+body #top #container {
+  padding: 500px 100px;
+  text-align: center;
+  background-color: antiquewhite;
+}
+body footer {
+  text-align: center;
+  padding: 10px;
+  background-color: cornsilk;
+}/*# sourceMappingURL=style.css.map */
