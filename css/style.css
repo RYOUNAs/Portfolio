@@ -4,20 +4,24 @@ body {
   background-repeat: repeat;
 }
 body #top header {
-  width: 70%;
   margin: 0 auto;
   height: auto;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.476);
   text-align: center;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  position: sticky;
+  top: 0;
+  z-index: 999;
 }
 body #top header h1 {
+  margin-left: 20%;
   padding: 30px;
   font-family: "Lilita One", cursive;
 }
 body #top header nav {
+  margin-right: 20%;
   padding: 4px;
   text-align: center;
 }
@@ -39,27 +43,56 @@ body #top header nav ul li a {
 body #top header nav ul li:hover {
   border-bottom: 3px solid #ff7a37; /* 下線の太さや色を指定します */
 }
-body #top #content-2 {
+body #top #about {
   width: 100%; /*各スライダー全体の横幅を画面の高さいっぱい（100%）にする*/
   height: 100vh; /*各スライダー全体の縦幅を画面の高さいっぱい（100vh）にする*/
   text-align: center;
-  background-color: darkgray;
+  background-image: url("../img/45degreee_fabric.webp");
+  background-repeat: repeat;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-body #top #content-3 {
-  width: 100%; /*各スライダー全体の横幅を画面の高さいっぱい（100%）にする*/
-  height: 100vh; /*各スライダー全体の縦幅を画面の高さいっぱい（100vh）にする*/
-  text-align: center;
-  background-color: honeydew;
+body #top #about #box-about h1 {
+  font-size: 40px;
+  padding: 20px;
 }
-body #top #content-4 {
+body #top #about #box-about p {
+  font-size: 20px;
+}
+body #top #profile {
   width: 100%; /*各スライダー全体の横幅を画面の高さいっぱい（100%）にする*/
   height: 100vh; /*各スライダー全体の縦幅を画面の高さいっぱい（100vh）にする*/
   text-align: center;
-  background-color: darksalmon;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body #top #works {
+  width: 100%; /*各スライダー全体の横幅を画面の高さいっぱい（100%）にする*/
+  height: 100vh; /*各スライダー全体の縦幅を画面の高さいっぱい（100vh）にする*/
+  text-align: center;
+  background-image: url("../img/45degreee_fabric.webp");
+  background-repeat: repeat;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body #top #contact {
+  width: 100%; /*各スライダー全体の横幅を画面の高さいっぱい（100%）にする*/
+  height: 40vh; /*各スライダー全体の縦幅を画面の高さいっぱい（100vh）にする*/
+  text-align: center;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 body #top #thank-you {
   width: 100%; /*各スライダー全体の横幅を画面の高さいっぱい（100%）にする*/
-  height: 30vh; /*各スライダー全体の縦幅を画面の高さいっぱい（100vh）にする*/
+  height: 20vh; /*各スライダー全体の縦幅を画面の高さいっぱい（100vh）にする*/
   display: grid;
   place-items: center;
   background-color: deepskyblue;
