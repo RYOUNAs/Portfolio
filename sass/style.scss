@@ -1,5 +1,5 @@
 body {
-  background-image: url("../img/tiny-squares.webp");
+  background-color: white;
   background-repeat: repeat;
   #top {
     // width: 40%;
@@ -7,24 +7,25 @@ body {
     // box-shadow: 2px 2px 4px;
 
     header {
-      width: 100%;
+      width: 70%;
+      margin: 0 auto;
       height: auto;
-      background-color: lightpink;
+      background-color: white;
       text-align: center;
       display: flex;
       justify-content: space-between;
       flex-wrap: wrap;
       h1 {
-        padding: 40px;
+        padding: 30px;
         // margin-bottom: 30px;
         font-family: "Lilita One", cursive;
       }
       nav {
-        padding: 10px;
+        padding: 4px;
         text-align: center;
-        background-color: rgba(255, 255, 255, 0.398);
+        // background-color: rgba(255, 255, 255, 0.398);
         ul {
-          margin-top: 40px;
+          margin-top: 30px;
           padding: 0;
           display: flex;
           justify-content: center;
@@ -44,39 +45,35 @@ body {
       }
     }
 
-    #content-1 {
-      width: 100%;
-      height: auto;
-      min-height: 400px;
-      text-align: center;
-      background-color: antiquewhite;
-    }
+    // #content-1 {
+    //   width: 100%; /*各スライダー全体の横幅を画面の高さいっぱい（100%）にする*/
+    //   height: 100vh; /*各スライダー全体の縦幅を画面の高さいっぱい（100vh）にする*/
+    //   text-align: center;
+    //   background-color: antiquewhite;
+    // }
     #content-2 {
-      width: 100%;
-      height: auto;
-      min-height: 400px;
+      width: 100%; /*各スライダー全体の横幅を画面の高さいっぱい（100%）にする*/
+      height: 100vh; /*各スライダー全体の縦幅を画面の高さいっぱい（100vh）にする*/
       text-align: center;
       background-color: darkgray;
     }
     #content-3 {
-      width: 100%;
-      height: auto;
-      min-height: 400px;
+      width: 100%; /*各スライダー全体の横幅を画面の高さいっぱい（100%）にする*/
+      height: 100vh; /*各スライダー全体の縦幅を画面の高さいっぱい（100vh）にする*/
       text-align: center;
       background-color: honeydew;
     }
     #content-4 {
-      width: 100%;
-      height: auto;
-      min-height: 400px;
+      width: 100%; /*各スライダー全体の横幅を画面の高さいっぱい（100%）にする*/
+      height: 100vh; /*各スライダー全体の縦幅を画面の高さいっぱい（100vh）にする*/
       text-align: center;
       background-color: darksalmon;
     }
-    #content-5 {
-      width: 100%;
-      height: auto;
-      min-height: 400px;
-      text-align: center;
+    #thank-you {
+      width: 100%; /*各スライダー全体の横幅を画面の高さいっぱい（100%）にする*/
+      height: 30vh; /*各スライダー全体の縦幅を画面の高さいっぱい（100vh）にする*/
+      display: grid;
+      place-items: center;
       background-color: deepskyblue;
     }
   }

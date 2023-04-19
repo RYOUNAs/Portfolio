@@ -4,16 +4,18 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./img/favicon.ico" />
     <!--==============レイアウトを制御する独自のCSSを読み込み===============-->
-    <link rel="stylesheet" href="./css/reset.css" />
-    <link rel="stylesheet" href="./css/load.css" />
-    <link rel="stylesheet" href="./css/style.css" />
     <link
       rel="stylesheet"
       type="text/css"
       href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
     />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/load.css" />
+    <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" type="text/css" href="./css/Slide.css" />
+    <link rel="stylesheet" href="./css/page-top.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -38,13 +40,14 @@
         <h1>RYOUNA's Portfolio Site</h1>
         <nav>
           <ul>
-            <li><a href="#">TOP</a></li>
-            <li><a href="#">ABOUT</a></li>
-            <li><a href="#">WORKS1</a></li>
-            <li><a href="#">WORKS2</a></li>
-            <li><a href="contact">CONTACT</a></li>
+            <li><a href="#top">TOP</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#works1">WORKS1</a></li>
+            <li><a href="#works2">WORKS2</a></li>
+            <li><a href="#contact">CONTACT</a></li>
           </ul>
         </nav>
+        <p id="page-top"><a href="#">Page Top</a></p>
       </header>
       <div id="content-1">
         <ul class="slider">
@@ -87,8 +90,8 @@
         <h1>現在作成中です</h1>
         <!--/container-->
       </div>
-      <div id="content-5">
-        <h1>現在作成中です</h1>
+      <div id="thank-you">
+        <h1>Thank you for coming!</h1>
         <!--/container-->
       </div>
       <div id="contact">
@@ -96,17 +99,22 @@
         <!--/container-->
       </div>
       <footer>
-        <h3>&copy; copyright.</h3>
+        <h3>&copy;2023 RYOUNA site</h3>
       </footer>
     </main>
   </body>
   <!--==============Java Script読み込み===============-->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script
+    src="https://code.jquery.com/jquery-3.6.4.min.js"
+    integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8="
+    crossorigin="anonymous"
+  ></script>
   <script src="./js/load.js"></script>
   <script src="./js/index.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
   <!--自作のJS-->
   <script src="js/Slide.js"></script>
   <script src="./js/SnowFalling.js"></script>
+  <script src="./js/page-top.js"></script>
   <!--==============Java Script読み込み===============-->
 </html>
