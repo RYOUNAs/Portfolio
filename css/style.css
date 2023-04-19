@@ -4,38 +4,79 @@ body {
   background-repeat: repeat;
 }
 body #top header {
-  padding: 20px;
-  background-color: aliceblue;
+  width: 100%;
+  height: auto;
+  background-color: lightpink;
   text-align: center;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 body #top header h1 {
-  margin-bottom: 50px;
+  padding: 40px;
+  font-family: "Lilita One", cursive;
 }
 body #top header nav {
+  padding: 10px;
   text-align: center;
+  background-color: rgba(255, 255, 255, 0.398);
 }
 body #top header nav ul {
-  margin: 0;
+  margin-top: 40px;
   padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 body #top header nav ul li {
+  margin: 0px 30px;
   list-style: none;
-  display: inline-block;
-  width: 10%; /* ここで項目の幅を指定します */
 }
 body #top header nav ul li a {
   text-decoration: none;
   color: #333;
 }
-body #top header nav li:hover {
-  border-bottom: 2px solid #ff7a37; /* 下線の太さや色を指定します */
+body #top header nav ul li:hover {
+  border-bottom: 3px solid #ff7a37; /* 下線の太さや色を指定します */
 }
-body #top #container {
-  padding: 500px 100px;
+body #top #content-1 {
+  width: 100%;
+  height: auto;
+  min-height: 400px;
   text-align: center;
   background-color: antiquewhite;
 }
+body #top #content-2 {
+  width: 100%;
+  height: auto;
+  min-height: 400px;
+  text-align: center;
+  background-color: darkgray;
+}
+body #top #content-3 {
+  width: 100%;
+  height: auto;
+  min-height: 400px;
+  text-align: center;
+  background-color: honeydew;
+}
+body #top #content-4 {
+  width: 100%;
+  height: auto;
+  min-height: 400px;
+  text-align: center;
+  background-color: darksalmon;
+}
+body #top #content-5 {
+  width: 100%;
+  height: auto;
+  min-height: 400px;
+  text-align: center;
+  background-color: deepskyblue;
+}
 body footer {
+  width: 100%;
+  height: auto;
   text-align: center;
   padding: 10px;
   background-color: cornsilk;
