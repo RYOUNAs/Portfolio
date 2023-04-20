@@ -9,19 +9,17 @@ body #top header {
   background-color: rgba(255, 255, 255, 0.476);
   text-align: center;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
   position: sticky;
   top: 0;
   z-index: 999;
 }
 body #top header h1 {
-  margin-left: 20%;
   padding: 30px;
   font-family: "Lilita One", cursive;
 }
 body #top header nav {
-  margin-right: 20%;
   padding: 4px;
   text-align: center;
 }
