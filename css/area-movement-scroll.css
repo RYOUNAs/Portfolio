@@ -1,0 +1,16 @@
+#g-nav ul li.current a,
+#g-nav ul li a:hover {
+  color: #ffffff;
+  background-color: rgba(81, 81, 81, 0.441);
+  backdrop-filter: blur(12px);
+}
+
+@media screen and (max-width: 768px) {
+  g-nav ul li a:hover {
+    color: #666;
+  }
+
+  g-nav ul li.current a {
+    color: #fff;
+  }
+}

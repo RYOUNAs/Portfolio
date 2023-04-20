@@ -37,6 +37,7 @@ body #top header nav ul li {
 body #top header nav ul li a {
   text-decoration: none;
   color: #333;
+  padding: 20px;
 }
 body #top header nav ul li:hover {
   border-bottom: 3px solid #ff7a37; /* 下線の太さや色を指定します */

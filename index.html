@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" type="text/css" href="./css/Slide.css" />
     <link rel="stylesheet" href="./css/page-top.css" />
+    <link rel="stylesheet" href="./css/area-movement-scroll.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -36,9 +37,9 @@
     <div class="splashbg2"></div>
 
     <main id="top">
-      <header>
+      <header id="header">
         <h1>RYOUNA's Portfolio Site</h1>
-        <nav>
+        <nav id="g-nav">
           <ul id="page-link">
             <li><a href="#top">TOP</a></li>
             <li><a href="#about">ABOUT</a></li>
@@ -49,7 +50,7 @@
         </nav>
         <p id="page-top"><a href="#">Page Top</a></p>
       </header>
-      <div id="content-1">
+      <div id="content-1" class="scroll-point">
         <ul class="slider">
           <li class="slider-item slider-item01">
             <span class="mask">
@@ -78,7 +79,7 @@
         </ul>
         <!--/container-->
       </div>
-      <div id="about">
+      <div id="about" class="scroll-point">
         <div id="box-about">
           <h1>about</h1>
           <p>
@@ -87,15 +88,17 @@
         </div>
         <!--/container-->
       </div>
-      <div id="profile">
+      <div id="profile" class="scroll-point">
+        <div id="box-profile">
+          <h1>WHO IS THIS?</h1>
+        </div>
+        <!--/container-->
+      </div>
+      <div id="works" class="scroll-point">
         <h1>現在作成中です</h1>
         <!--/container-->
       </div>
-      <div id="works">
-        <h1>現在作成中です</h1>
-        <!--/container-->
-      </div>
-      <div id="contact">
+      <div id="contact" class="scroll-point">
         <h1>CONTACT</h1>
         <!--/container-->
       </div>
@@ -117,10 +120,13 @@
   <script src="./js/load.js"></script>
   <script src="./js/index.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/multiscroll.js/0.2.2/jquery.multiscroll.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
   <!--自作のJS-->
   <script src="js/Slide.js"></script>
   <script src="./js/SnowFalling.js"></script>
   <script src="./js/page-top.js"></script>
   <script src="./js/page-scroll.js"></script>
+  <script src="./js/area-movement-scroll.js"></script>
   <!--==============Java Script読み込み===============-->
 </html>
