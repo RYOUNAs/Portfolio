@@ -116,7 +116,7 @@
 .slick-next {
   position: absolute;
   z-index: 3;
-  top: 42%;
+  top: 50%;
   cursor: pointer; /*マウスカーソルを指マークに*/
   outline: none; /*クリックをしたら出てくる枠線を消す*/
   border-top: 2px solid #fff; /*矢印の色*/

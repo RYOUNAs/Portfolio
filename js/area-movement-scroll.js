@@ -29,9 +29,12 @@ function ScrollAnime() {
   } else if (scroll >= elemTop[2] && scroll < elemTop[3]) {
     //.scroll-point 2つめ（area-2）以上.scroll-point 3つめ（area-3）未満
     $(NavElem[2]).addClass("current"); //3つめのliに現在地クラスを付与
-  } else if (scroll >= elemTop[3]) {
+  } else if (scroll >= elemTop[3] && scroll < elemTop[4]) {
     // .scroll-point 3つめ（area-3）以上
     $(NavElem[3]).addClass("current"); //4つめのliに現在地クラスを付与
+  } else if (scroll >= elemTop[4]) {
+    // .scroll-point 3つめ（area-4）以上
+    $(NavElem[4]).addClass("current"); //4つめのliに現在地クラスを付与
   }
 }
 
