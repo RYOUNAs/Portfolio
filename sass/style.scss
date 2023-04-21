@@ -78,12 +78,23 @@ body {
     }
     #profile {
       width: 100%; /*各スライダー全体の横幅を画面の高さいっぱい（100%）にする*/
-      height: 100vh; /*各スライダー全体の縦幅を画面の高さいっぱい（100vh）にする*/
+      height: 4000px; /*各スライダー全体の縦幅を画面の高さいっぱい（100vh）にする*/
       text-align: center;
       background-color: white;
       display: flex;
       justify-content: center;
       align-items: center;
+      #luxy {
+        #luxyTop {
+          h2 {
+            font-size: 100px;
+          }
+        }
+        img {
+          width: auto;
+          height: 700px;
+        }
+      }
     }
     #works {
       width: 100%; /*各スライダー全体の横幅を画面の高さいっぱい（100%）にする*/
