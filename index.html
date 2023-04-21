@@ -17,6 +17,7 @@
     <link rel="stylesheet" type="text/css" href="./css/Slide.css" />
     <link rel="stylesheet" href="./css/page-top.css" />
     <link rel="stylesheet" href="./css/area-movement-scroll.css" />
+    <link rel="stylesheet" href="./css/hamburger-menue.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -39,13 +40,14 @@
     <main id="top">
       <header id="header">
         <h1>RYOUNA's Portfolio Site</h1>
-        <nav id="g-nav">
-          <ul id="page-link">
-            <li><a href="#top">TOP</a></li>
-            <li><a href="#about">ABOUT</a></li>
-            <li><a href="#profile">PROFILE</a></li>
-            <li><a href="#works">WORKS</a></li>
-            <li><a href="#contact">CONTACT</a></li>
+        <div class="icon-hamburger"><span></span></div>
+        <nav id="g-nav" class="menu-container">
+          <ul id="menu">
+            <li class="menu-item"><a href="#top">TOP</a></li>
+            <li class="menu-item"><a href="#about">ABOUT</a></li>
+            <li class="menu-item"><a href="#profile">PROFILE</a></li>
+            <li class="menu-item"><a href="#works">WORKS</a></li>
+            <li class="menu-item"><a href="#contact">CONTACT</a></li>
           </ul>
         </nav>
         <p id="page-top"><a href="#">Page Top</a></p>
@@ -90,7 +92,9 @@
       </div>
       <div id="profile" class="scroll-point">
         <div id="luxy">
-          <h2>WHO IS THIS?</h2>
+          <section id="luxyTop">
+            <h2>WHO IS THIS?</h2>
+          </section>
           <section class="area">
             <figure class="luxy-el" data-speed-y="8" data-offset="50">
               <img
@@ -197,5 +201,6 @@
   <script src="./js/page-top.js"></script>
   <script src="./js/page-scroll.js"></script>
   <script src="./js/area-movement-scroll.js"></script>
+  <script src="./js/hamburger-menue.js"></script>
   <!--==============Java Script読み込み===============-->
 </html>

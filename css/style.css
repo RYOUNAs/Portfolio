@@ -71,6 +71,7 @@ body #top #profile {
 }
 body #top #profile #luxy #luxyTop h2 {
   font-size: 100px;
+  width: 100vw;
 }
 body #top #profile #luxy img {
   width: auto;
