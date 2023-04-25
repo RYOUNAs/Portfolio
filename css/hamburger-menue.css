@@ -51,3 +51,14 @@
     display: none;
   }
 }
+
+#modal-overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  display: none;
+  height: 120%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+}
